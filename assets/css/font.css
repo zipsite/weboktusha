@@ -14,20 +14,20 @@
 
 .button-text {
     font-family: 'Press Start 2P', sans-serif;
-    size: 52px;
+    font-size: 52px;
     color: var(--font-color-main);
 }
 
 .headline-text {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    size: 40px;
+    font-size: 40px;
     color: var(--font-color-main);
 }
 
 .logo-text {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    size: 48px;
+    font-size: 48px;
     color: var(--font-color-main);
 }

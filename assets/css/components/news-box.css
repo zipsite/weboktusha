@@ -12,12 +12,20 @@
     border-radius: 10px;
     padding: 24px;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .news-box > .content > img {
     border-radius: 10px;
+    align-self: start;
 }
+
+.news-box > .content > .text-place {
+    max-width: 626px;
+    width: 100%;
+}
+
 
 .news-box .high-text {
     margin-bottom: 8px;
