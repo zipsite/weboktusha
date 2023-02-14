@@ -1,0 +1,23 @@
+.button.primary{
+    --border-color: var(--color-onprimary);
+    --back-color: var(--color-primary);
+}
+.button.secondary{
+    --border-color: var(--color-onsecondary);
+    --back-color: var(--color-secondary);
+}
+
+.button {
+    padding: 16px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button:hover {
+    border: 4px solid var(--border-color);
+}
