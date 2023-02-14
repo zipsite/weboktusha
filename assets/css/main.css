@@ -4,4 +4,8 @@
 
 @import "variables.css";
 
-@import "normalise.css"
+@import "font.css";
+
+@import "normalise.css";
+
+@import "./components/index.css"

@@ -1,3 +1,33 @@
 .main-text {
-    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--font-color-main);
+}
+
+.high-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--font-color-main);
+}
+
+.button-text {
+    font-family: 'Press Start 2P', sans-serif;
+    size: 52px;
+    color: var(--font-color-main);
+}
+
+.headline-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    size: 40px;
+    color: var(--font-color-main);
+}
+
+.logo-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    size: 48px;
+    color: var(--font-color-main);
 }
