@@ -8,4 +8,6 @@
 
 @import "normalise.css";
 
+@import "page.css";
+
 @import "./components/index.css"

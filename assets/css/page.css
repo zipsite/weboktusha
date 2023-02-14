@@ -1,0 +1,22 @@
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.game-description {
+    padding: 24px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
