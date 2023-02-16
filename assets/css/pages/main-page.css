@@ -1,0 +1,6 @@
+.game-description {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

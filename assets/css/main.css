@@ -9,5 +9,6 @@
 @import "normalise.css";
 
 @import "page.css";
+@import "./pages/index.css";
 
 @import "./components/index.css"
