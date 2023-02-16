@@ -1,0 +1,34 @@
+
+.body{
+margin: 0%;
+padding: 0%;
+}
+
+.footer {
+    width:100%;
+    height: 300px;
+    background-color: var(--color-onprimary);
+    margin: 0%;
+    
+
+    
+}
+
+.name {
+    margin-left: 4%;
+    padding-top: 2%;
+}
+
+.text {
+    color: #2e2e2e;
+    line-height: 1.5em;
+}
+
+
+.logo {
+   margin-right: 4%;
+}
+
+.ikonka {
+
+}
