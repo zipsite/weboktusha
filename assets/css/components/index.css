@@ -2,4 +2,4 @@
 @import "footer.css";
 @import "headline-page.css";
 @import "buttons.css";
-@footer "banner.css"
+@import "banner.css";
