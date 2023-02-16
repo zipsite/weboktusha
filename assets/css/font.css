@@ -5,6 +5,13 @@
     color: var(--font-color-main);
 }
 
+.bold-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--font-color-main);
+}
+
 .high-text {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
