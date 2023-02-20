@@ -19,12 +19,6 @@
     color: var(--font-color-main);
 }
 
-.button-text {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 52px;
-    color: var(--font-color-main);
-}
-
 .headline-text {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -32,9 +26,17 @@
     color: var(--font-color-main);
 }
 
-.logo-text {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    color: var(--font-color-main);
+@media (max-width: 768px) {
+    .main-text {
+        font-size: 18px;
+    }
+    .bold-text {
+        font-size: 18px;
+    }
+    .high-text {
+        font-size: 24px;
+    }
+    .headline-text {
+        font-size: 32px;
+    }
 }
