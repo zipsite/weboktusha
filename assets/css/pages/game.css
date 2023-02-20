@@ -1,0 +1,19 @@
+.frame-content {
+    width: 100%;
+    display: flex;
+}
+
+.frame-content > img {
+    display: none;
+    width: 100%;
+}
+
+@media (max-width: 1096px) {
+    .frame-content > iframe {
+        display: none;
+    }
+
+    .frame-content > img {
+        display: block;
+    }
+}
