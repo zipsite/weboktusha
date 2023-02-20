@@ -18,18 +18,41 @@
 
 .banner > .scroll-image-place {
     width: 100%;
-    height: 610px;
+    position: relative;
+}
+
+.banner > .scroll-image-place::before{
+    display: block;
+    content: "";
+    padding-top: 56.5%;
+}
+
+.banner > .scroll-image-place > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     overflow: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    border-radius: 20px;
 }
 
-.banner > .scroll-image-place > img {
+.banner > .scroll-image-place > div > img {
     scroll-snap-align: start;
+    display: block;
 }
 
 
-.banner > .scroll-image-place::-webkit-scrollbar {
+.banner > .scroll-image-place > div::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 1000px) {
+    .banner > .arrow {
+        display: none;
+    }
 }
