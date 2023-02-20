@@ -11,6 +11,7 @@ window.addEventListener("keydown", (e) => {
 		switch (e.key) {
 		  case ' ':
 			player.interactionAsset.dialogueIndex++
+			e.preventDefault()
 			
 			const { dialogueIndex, dialogue } = player.interactionAsset
 			if (dialogueIndex <= dialogue.length - 1) {
