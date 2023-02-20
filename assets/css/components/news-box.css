@@ -12,7 +12,6 @@
     border-radius: 10px;
     padding: 24px;
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -22,11 +21,20 @@
 }
 
 .news-box > .content > .text-place {
-    max-width: 626px;
     width: 100%;
 }
 
 
 .news-box .high-text {
     margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+    .news-box > .content {
+        flex-direction: column;
+    }
+
+    .news-box > .content > img {
+        width: 100%;
+    }
 }
