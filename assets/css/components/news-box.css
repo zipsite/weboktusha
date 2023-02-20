@@ -32,6 +32,7 @@
 @media (max-width: 900px) {
     .news-box > .content {
         flex-direction: column;
+        padding: 16px
     }
 
     .news-box > .content > img {

@@ -18,8 +18,23 @@
 }
 
 .headline-page > .text-place {
-    margin: 58px 0;
-    padding: 16px 0px 16px 250px ;
+    /* margin: 58px 0; */
+    padding: 16px 24px 16px 250px ;
     border-radius: 50px;
     background-color: var(--color-primary);
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .headline-page {
+        margin: 24px 0;
+    }
+
+    .headline-page > .logo-place {
+        display: none;
+    }
+
+    .headline-page > .text-place {
+        padding: 16px 24px;
+    }
 }
